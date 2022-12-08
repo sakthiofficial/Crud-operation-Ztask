@@ -54,6 +54,7 @@ function EditTable({ data, getData }) {
               </tr>
             );
           })}
+          
 
         </tbody>
       </table>
