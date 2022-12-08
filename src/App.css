@@ -1,38 +1,138 @@
-.App {
+.create-container{
+  display:flex;
+ background-color:black;
+ color: aliceblue;
+ justify-content: center;
+ width: 100%;
+ height: 100vh;
+ align-items: center;
+}
+.App{
+  background-color:black;
+}
+.input-filds>div{
+margin: 2rem;
+text-align: center;
+}
+label{
+  margin-right: 1rem;
+}
+.btn{
+  display:flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+body{
+margin: 0;
+padding: 0;
+background-color: black;
+}
+input{
+  width: 20rem;
+  height: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+.create-container__checkbox input{
+  width: 2rem;
+  height: 0.9rem;
+  
+}
+h2{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  background-color: #fff;
+  padding: 4px 15px;
+  border-radius: 5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.table-cont{
+  display:flex;
+  background-color:black;
+  color: aliceblue;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+table{
+  width: 50rem;
+ 
+  text-align:center;
+  border-collapse: collapse;
+  border: 2px solid whitesmoke;
+}
+
+.table-cont table th {
+  border: 1px solid whitesmoke;
+  height: 3rem;
+  
+}
+.table-cont table td{
+  border: 1px solid;
+}
+.table-cont table tr{
+  height: 5rem;
+}
+ul li a{
+  text-decoration: none;
   color: white;
-}
+padding: 2rem 3rem;
 
-.App-link {
-  color: #61dafb;
 }
+ul li{
+  list-style: none;
+background-color:black;
+margin-top: 1rem;
+font-size: 1rem;
+font-weight: 800;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+ul li :hover{
+  color: rgb(94, 94, 94);
+transition: 500ms;
+
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ margin: 0;
+ padding-bottom: 1rem;
+  border-bottom: 1px solid aliceblue;
+
+
+
+}
+.user-img{
+  /* position:absolute; */
+  left: 0.3rem;
+  top: 3.5rem;
+}
+img{
+      height: 34rem;
+  object-fit: fill;
+  width: 79rem;
+  opacity: 0.5;
+  transition: 500ms;
+
+}
+img:hover{
+  opacity: 0.3;
+  transition: 500ms;
+}
+table button{
+  margin-right: 1rem;
+  background:transparent ;
+  color: aliceblue;
+}
+table button:hover{
+  color: rgb(93, 100, 106);
+  transition: 500ms;
+  
 }
